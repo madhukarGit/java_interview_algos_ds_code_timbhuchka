@@ -1,6 +1,5 @@
 package com.ds.algos.pojos;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,7 +8,7 @@ public class BubbleSortObjects {
 
 	public static void main(String[] args) {
 	
-		Movies[] movies = new Movies[5];
+		Movies[] movies = new Movies[6];
 		
 		movies[0] = new Movies(1262, "Tenet");
 		
@@ -20,6 +19,8 @@ public class BubbleSortObjects {
 		movies[3] = new Movies(1612, "Inception");
 		
 		movies[4] = new Movies(881, "Zoo Keeper");
+		
+		movies[5] = new Movies(889, "Andrew unnamed movie");
 		
 		sortNamesBubble(movies);
 		
