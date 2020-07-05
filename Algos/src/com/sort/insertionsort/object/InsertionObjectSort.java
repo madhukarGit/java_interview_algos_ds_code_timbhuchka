@@ -25,9 +25,11 @@ public class InsertionObjectSort {
 		
 	}
 	
+	//insertion sort implementation
+	
 	public static void sortEmployeeObjects(Employee[] employees) {
 		
-		for(int firstSortIndex = 0; firstSortIndex < employees.length;firstSortIndex++)
+		for(int firstSortIndex = 1; firstSortIndex < employees.length;firstSortIndex++)
 		{
 			Employee newElement = employees[firstSortIndex];
 			

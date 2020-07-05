@@ -10,7 +10,7 @@ public class InsertionSort {
 		
 		int[] arr = {20,35,-15,7,55,1,-22};
 		
-		for (int firstSortedIndex = 0; firstSortedIndex < arr.length ; firstSortedIndex++) {
+		for (int firstSortedIndex = 1; firstSortedIndex < arr.length  ; firstSortedIndex++) {
 			
 			int newElement = arr[firstSortedIndex];
 			
