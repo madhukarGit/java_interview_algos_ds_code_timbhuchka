@@ -1,4 +1,4 @@
-package com.ds.algos;
+package com.sort.bubble;
 
 import java.util.Arrays;
 import java.util.List;

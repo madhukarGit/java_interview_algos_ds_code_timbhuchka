@@ -1,4 +1,4 @@
-package com.ds.algos.pojos;
+package com.sort.bubble.object;
 
 import java.util.Arrays;
 import java.util.List;

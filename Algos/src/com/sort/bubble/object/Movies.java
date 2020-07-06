@@ -1,4 +1,4 @@
-package com.ds.algos.pojos;
+package com.sort.bubble.object;
 
 public class Movies {
 
