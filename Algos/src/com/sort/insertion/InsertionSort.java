@@ -15,8 +15,9 @@ public class InsertionSort {
 			int newElement = arr[firstSortedIndex];
 			
 			int i ;
-			
+	
 			for (i = firstSortedIndex ; i > 0 && arr[i-1] > newElement ; i--) {
+				System.out.println(i);
 				arr[i] = arr[i-1];
 			}
 			arr[i] = newElement; 
